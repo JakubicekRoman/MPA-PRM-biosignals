@@ -1,4 +1,4 @@
-"""Heart rate from a 9.5 s PPG record – the entry point we run on the hidden test set.
+"""The entry point we run on the hidden test set.
 
     python predict.py --data <folder> --out predictions.csv
 

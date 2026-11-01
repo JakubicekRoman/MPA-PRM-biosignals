@@ -1,6 +1,6 @@
-# Heart rate from smartphone PPG
+# Application project I: Biosignals
 
-MPA-PRM · Application project: Biosignals · week 7
+Computer-Aided Medical Diagnostics (MPA-PRM) · FEEC BUT · 2026/27
 
 ## Team
 
