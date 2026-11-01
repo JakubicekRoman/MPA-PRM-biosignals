@@ -6,10 +6,7 @@ MPA-PRM · Application project: Biosignals · week 7
 
 Team name (your start-up): 
 
-| Name | BUT ID |
-|---|---|
-|  |  |
-|  |  |
+Members: 
 
 ## The task
 
@@ -52,13 +49,12 @@ The full assignment and the scoring are in the slides on e-learning.
 
 ## What must be in your repository at 17:00
 
-| File | Contents |
-|---|---|
-| `predict.py` | keep its interface; put your algorithm in `estimate()` (or call your own modules) |
-| your trained model | in the repository; if it is larger than 100 MB, a download link below |
-| `requirements.txt` | every package `predict.py` needs, with versions |
-| your training code | everything needed to train the model from `data/train` |
-| `report.html` | technical documentation with the team name and the authors, **max. 4 A4 pages when printed**, including figures |
+- `predict.py`: keep its interface, put your algorithm in `estimate()`
+- your trained model (larger than 100 MB: a download link below)
+- `requirements.txt`: every package `predict.py` needs
+- your training code
+- `report.html`: technical documentation with the team name and the authors, max. 4 A4 pages when
+  printed, including figures
 
 ## How we run it
 
