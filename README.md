@@ -52,7 +52,7 @@ The full assignment and the scoring are in the slides on e-learning.
 - `predict.py`: keep its interface, put your algorithm in `estimate()`
 - your trained model (larger than 100 MB: a download link below)
 - `requirements.txt`: every package `predict.py` needs
-- your training code
+- the code you used for training, as it is
 - `report.html`: technical documentation with the team name and the authors, max. 4 A4 pages when
   printed, including figures
 
@@ -80,14 +80,6 @@ python predict.py --data smoke --out predictions.csv
 Link:
 
 Save it as (path in the repository):
-
-## How to reproduce the training
-
-*Write the exact commands (and the environment) that train your model from `data/train`.*
-
-```
-...
-```
 
 ## Rules
 
