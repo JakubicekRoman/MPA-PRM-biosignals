@@ -53,8 +53,7 @@ The full assignment and the scoring are in the slides on e-learning.
 - your trained model (larger than 100 MB: a download link below)
 - `requirements.txt`: every package `predict.py` needs
 - the code you used for training, as it is
-- `report.html`: technical documentation with the team name and the authors, max. 4 A4 pages when
-  printed, including figures
+- `report.html`: technical documentation, max. 4 A4 pages when printed, including figures
 
 ## How we run it
 
