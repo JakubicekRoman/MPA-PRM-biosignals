@@ -1,10 +1,8 @@
-# unzipped course data – never commit
-data/*
-!data/README.md
+# course data – never commit
+data/
+*.zip
 
-# smoke test
-.smoke_env/
-.smoke_predictions.csv
+predictions.csv
 
 # Python
 __pycache__/
