@@ -11,7 +11,6 @@ or an empty hr to request a new measurement.
 
 Keep this interface (the arguments and the output). Everything else is yours: load your
 trained model from the repository, use any packages listed in requirements.txt.
-No training here, and no internet access is needed while it runs.
 """
 
 import argparse

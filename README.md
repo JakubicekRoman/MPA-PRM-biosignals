@@ -62,32 +62,28 @@ The full assignment and the scoring are in the slides on e-learning.
 
 ## How we run it
 
-After 17:00 we take your last commit and, in a clean Python 3.12 environment, install
-`requirements.txt` and run:
+After 17:00 we take your last commit and run:
 
 ```
+pip install -r requirements.txt
 python predict.py --data <hidden test folder> --out predictions.csv
 ```
 
 The hidden test folder has the same layout as `data/train` (`signals/` + `info.csv`), without
-`annotations.csv`. `predict.py` must not train and should take less than
-10 minutes for about 800 records.
+`annotations.csv`. The output has one row per record: `record_id,hr`, with an empty `hr` for a new
+measurement.
 
-**Try it before the final push**, on a few synthetic records in `smoke/`, ideally in a clean
-environment:
+**Try it before the final push**, on a few synthetic records in `smoke/`:
 
 ```
 python predict.py --data smoke --out predictions.csv
 ```
 
-The file must have one row per record: `record_id,hr`, with an empty `hr` for a new measurement.
-If it does not run on our side, the test result is 0.
-
 ## Model download (only for a model larger than 100 MB)
 
-Link (direct download, no login, must not change after 17:00): 
+Link:
 
-Save it as (path in the repository): 
+Save it as (path in the repository):
 
 ## How to reproduce the training
 
