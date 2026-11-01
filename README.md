@@ -56,7 +56,7 @@ The full assignment and the scoring are in the slides on e-learning.
 |---|---|
 | `predict.py` | keep its interface; put your algorithm in `estimate()` (or call your own modules) |
 | your trained model | in the repository; if it is larger than 100 MB, a download link below |
-| `requirements.txt` | every package `predict.py` needs, with versions; CPU only |
+| `requirements.txt` | every package `predict.py` needs, with versions |
 | your training code | everything needed to train the model from `data/train` |
 | `report.html` | technical documentation with the team name and the authors, **max. 4 A4 pages when printed**, including figures |
 
@@ -70,7 +70,7 @@ python predict.py --data <hidden test folder> --out predictions.csv
 ```
 
 The hidden test folder has the same layout as `data/train` (`signals/` + `info.csv`), without
-`annotations.csv`. `predict.py` must not train, must run on a CPU and should take less than
+`annotations.csv`. `predict.py` must not train and should take less than
 10 minutes for about 800 records.
 
 **Try it before the final push**, on a few synthetic records in `smoke/`, ideally in a clean

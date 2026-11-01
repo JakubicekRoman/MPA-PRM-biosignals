@@ -1,4 +1,3 @@
 # Packages that predict.py needs, one per line, with versions, e.g.
 # numpy==2.1.3
 # scipy==1.14.1
-# For PyTorch use the CPU build: --extra-index-url https://download.pytorch.org/whl/cpu
